@@ -1,4 +1,5 @@
 # Welcome to My Portfolio  
+
 #### -By Danny Harani (2020-2021) 
 
 This portfolio is a visual representation of the continued learning I have gone through while starting the ICS4U course this quadmester.
