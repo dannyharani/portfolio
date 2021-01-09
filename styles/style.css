@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     background-color: rgb(249, 255, 254);
@@ -6,7 +10,7 @@ body {
     border-color: rgb(216, 160, 241);
     overflow-x: hidden;
     font-family: 'Roboto-bold', sans-serif;
-    height: 2800px;
+    height: 7000px;
 }
 
 header {
@@ -16,6 +20,10 @@ header {
     position: fixed;
     top: 100px;
     right: 70px;
+}
+
+a {
+    color: rgb(10, 41, 87);
 }
 
 header ul {
@@ -54,6 +62,50 @@ header, ul a{
     font-size: 60px;
 }
 
+.description {
+    text-align: center;
+    margin: 120px;
+}
+
 .title_text {
     margin: 0;
+}
+
+div h3 {
+    text-align: center;
+}
+
+.intro {
+    text-align: left;
+    line-height: 25px;
+}
+
+.description ul {
+    text-align: left;
+    margin-left: 0;
+    padding-left: 15px;
+}
+
+.description li {
+    padding-left: 0;
+}
+
+.highlight {
+    padding:8px;
+    border-spacing: 5px;
+    border-left-style: solid;
+    border-left-color: rgb(216, 160, 241);
+    border-left-width: 4px;
+}
+
+#Montreal {
+    color:red;
+}
+
+::-moz-selection {
+    background: rgb(216, 160, 241);
+}
+
+::selection {
+    background: rgb(216, 160, 241);
 }
