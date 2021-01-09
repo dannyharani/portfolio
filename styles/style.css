@@ -91,11 +91,22 @@ div h3 {
 }
 
 .highlight {
-    padding:8px;
-    border-spacing: 5px;
+    margin: 25px;
+    padding:15px;
     border-left-style: solid;
     border-left-color: rgb(216, 160, 241);
     border-left-width: 4px;
+    text-align: left;
+}
+
+.embed {
+    align-content: center;
+    width: 105%;
+    margin-top: 50px;
+}
+
+.project {
+    margin-top:  70px;
 }
 
 #Montreal {
