@@ -4,7 +4,7 @@
 This portfolio is a visual representation of the continued learning I have gone through while starting the ICS4U course this quadmester.
 This is a list of all the projects I am most proud of for various reasons!
 
-## My ten favorite Mondules
+## My ten favorite Modules
 
 1. 
 2. 
