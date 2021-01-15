@@ -8,6 +8,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles\style.css">
     <link rel="icon" href="images\favicon.ico" type="image/x-icon">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.3/addons/p5.dom.min.js"></script>
 </head>
 <body>
     <header> 
@@ -33,7 +36,7 @@
     <div class="description" id="MY_SELF">
         <h3>About Myself</h3>
         <p class="intro">
-            I am Danny Harani, an aspiring software engineer and developer from <span id="Montreal">Montreal</span>, now living in Ottawa. I am in grade 12 at AY-Jackson secondary school.
+            I am Danny Harani, an aspiring software engineer and developer from Montreal, now living in Ottawa. I am in grade 12 at AY-Jackson secondary school.
             Computer programing has been an interest of mine for as long as I can remember and I started really looking into it when I was about 11 years old with basic block-type coding.
             When I was 14, I took it on to myslef to start learning to code. I used online resources, primarily <a href="https://www.youtube.com">youtube</a> to learn coding on my own.
             I started with basic variable video's and learned up to loops. I then made simple input output type of games like hangman or rock paper scissors. When I felt confident in my abilities,
@@ -65,13 +68,13 @@
     </div>
 
     <div class="description" id="MY_LAB">
-        <h3>My favorite projects</h3>
+        <h2>My favorite projects</h2>
         <p>Here is a list in no particular order of my 10 favorite projects / modules: </p>
         
         <!-- 1 -->
 
         <div class="project">
-            <h2>Paint Splatter</h2>
+            <h3>Paint Splatter</h3>
 
             <div class="embed">
                 <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-paint-splatter/6197740044763136/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
@@ -83,7 +86,7 @@
         <!-- 2 -->
 
         <div class="project">
-            <h2>Guessing game</h2>
+            <h3>Guessing game</h3>
             <div class="embed">
                 <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-memory/4588095890997248/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
             </div>
@@ -97,7 +100,7 @@
         <!-- 3 -->
 
         <div class="project">
-            <h2>Mountain range</h2>
+            <h3>Mountain range</h3>
             <div class="embed">
                 <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-mountain-range/6242436041359360/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
             </div>
@@ -112,7 +115,7 @@
         <!-- 4 -->
 
         <div class="project">
-            <h2>Creature comforts and critter jitters</h2>
+            <h3>Creature comforts and critter jitters</h3>
             <div class="embed">
                 <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-creature-comforts-and-critter-jitters/5001190274711552/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
             </div>
@@ -123,6 +126,88 @@
                 which is why the fly would leave if it is too dangerous for it to stay. I learned a lot about how to use physics concepts while programing thanks to this module.
             </p>
         </div>
+
+        <!--  5  -->
+
+        <div class="project">
+            <h3>Interactive Slideshow with JQuery</h3>
+            <div class="embed">
+                <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-interactive-slideshow/6379222665216000/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
+            </div>
+            <p class="highlight">
+                JQuery is a great tool to personallise and make your webpage interactive. This JQuery module was a great tool to learn online and understand how to implement different
+                kinds of libraries on your website. This section also helped me understand that you do not need to create everything from scratch and you can use other peoples work to
+                improve your own. Now this does not mean that you can steal, but you can implement instead! I was always "iffy" on taking other people's work but if noone ever borrows others'
+                efforts, noone would ever create anything new. I am glad this module made me understand that I can be more productive by using libraries and improving my work with them. 
+                Although I did not add too much complexity to this code, it is very expandable and modular. For example, I could use an array and have next go to next index and loop once it reaches the last
+                and have previous do the same but for the previous index. This is just a thought but simply implementing this with that simplicity is enough to grasp the concept.
+            </p>
+        </div>
+
+        <!-- 6 -->
+
+        <div class="project">
+            <h3>Asteroids Spaceship</h3>
+            <div class="embed">
+                <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-asteroids-spaceship/5890624113295360/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
+            </div>
+            <p class="highlight">
+                This project encapsulated almost all of natural simulations and animation. I learned a lot from this experience, doing extra research online from sources like stack overflow
+                and other communities of the sort. I believe learning is impossible without a community around you. I am glad this project pushed me outside of my comfort zone and taught me
+                that asking questions and not understandind on the first try is completely normal. I did not ask any question on these websites since I had answers from others' asking the same questions
+                however, I can see myself asking many, many <strong>many</strong> questions in the future. The actual project itself used many math concepts like angle and distance, I am looking for a 
+                way to implement more rational math like quadrance and spread but without success so far since I have been taught classical math for too long. This is a goal for my future!
+            </p>
+        </div>
+
+        <!-- 7 -->
+
+        <div class="project">
+            <h3>Word game</h3>
+            <div class="embed">
+                <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-word-game/5415843851091968/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
+            </div>
+            <p class="highlight">
+                This is another example of JQuery which implements the form input methods. This is again a simplified version of what I could do, however I now understand the basic concept and can improve 
+                my ideas with additional loops or objects. This is an example of how to take a new concept and applying it to your previous knowledge. I will use many of these Khan Academy modueles
+                for this soul purpose. Pamella, the author of this course, did a great job teaching how to stack on top of previous knowledge. 
+            </p>
+        </div>
+
+        <!-- 8 -->
+
+        <div class="project">
+            <h3>Bookshelf</h3>
+            <div class="embed">
+                <script src="https://www.khanacademy.org/computer-programming/spin-off-of-project-bookshelf/6264689310515200/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
+            </div>
+            <p class="highlight">
+                Bookshelf is by no means a complicated program at all, but it taught me a lot. Not much in the term of coding or javascript, but in terms of best practices. This specific module is one that displays
+                my improvement the best. The amount of modularity such a simple code has is by itself an achievement. I believe it is a great way to teach best practices in programing. 
+                I used variables, objects, relevant naming of parameters and readable coding. There isn't much more you can ask of a programer!
+            </p>
+        </div>
+
+        <!-- 9 -->
+
+        <div class="project">
+            <h3>Metaballs</h3>
+            <div class="embed">
+                <iframe src="https://editor.p5js.org/danniharany/embed/uEYnGlfhm" height="420" width="420"></iframe>
+            </div>
+            <p class="highlight">
+                Metaballs is a project I am very proud of. There is still much to improve, like everything else, but I believe it is my most refined work to date. I used all the aspects I learned from Khan Academy and 
+                other online resources such as the Coding Train, youtube videos, and online articles. I really learned how to do profound and meaningful research. This is also the first project in which I included 
+                my learning community as part of the code. I tried to help my community learn about classical physics concepts and how to include them in the program. I used classical math to ensure the class understands
+                what I am saying as it is the most commonly taught, I was also selfish as I did not try to use rational math. This was on purpose, however; since I believe it is not as intuitive as classical math at the moment.
+                I tried learning for myself and this makes me very proud. I applied concepts of loops, arrays, objects and multiple variable types.
+            </p>
+
+        </div>
+
+        <!-- 10 -->
+
+        <h3>Not yet finished</h3>
 
     </div>
     <script type="text/javascript" src="scripts/page_dynamics.js"></script>

@@ -10,7 +10,6 @@ body {
     border-color: rgb(216, 160, 241);
     overflow-x: hidden;
     font-family: 'Roboto-bold', sans-serif;
-    height: 7000px;
 }
 
 header {
@@ -22,9 +21,19 @@ header {
     right: 70px;
 }
 
+h3 {
+    padding-top: 40px;
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 45px;
+}
+
 a {
     color: rgb(10, 41, 87);
 }
+
 
 header ul {
     margin: 0;
@@ -46,18 +55,32 @@ header, ul a{
     vertical-align: middle;
 }
 
+#title h2 {
+    position: absolute;
+    left: 3px;
+    font-size: 85px;
+    text-align: left;
+}
+
+#home {
+    width: 32px;
+    vertical-align: middle;
+}
+
+
 #title {
     position: relative;
     text-align: top;
 }
 
 #title_image {
+    width: 70%;
     z-index: 3;
 }
 
 #title_text { 
     position: absolute;
-    top: 100px;
+    top: 70px;
     left: 70px;
     font-size: 60px;
 }
@@ -97,6 +120,7 @@ div h3 {
     border-left-color: rgb(216, 160, 241);
     border-left-width: 4px;
     text-align: left;
+    line-height: 24px;
 }
 
 .embed {
@@ -109,8 +133,10 @@ div h3 {
     margin-top:  70px;
 }
 
-#Montreal {
-    color:red;
+iframe{
+    position: relative;
+    left: -40px;
+    border-style: none;
 }
 
 ::-moz-selection {
