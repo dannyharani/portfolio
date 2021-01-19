@@ -1,0 +1,34 @@
+function palindrome(str) {
+  
+  const original = str.split('');
+  let lower = [];
+  let final = [];
+  let reversed = [];
+  for(let i = 0; i < original.length; i ++) {
+    lower.push(original[i].toLowerCase());
+  }
+
+  for(let i = 0; i < lower.length; i ++) {
+    if(lower[i].match(/^[0-9a-z]+$/)) {
+      final.push(lower[i]);
+    }
+  }
+
+  for(let i = final.length - 1; i >= 0; i --) {
+    reversed.push(final[i]);
+  }
+
+  for(let i = 0; i < final.length; i++) {
+    if(final[i] != reversed[i]) {
+      return false
+    }
+  }
+
+  return true;
+
+
+}
+
+
+
+palindrome("eye");

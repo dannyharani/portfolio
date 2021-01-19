@@ -31,7 +31,8 @@ h2 {
 }
 
 a {
-    color: rgb(10, 41, 87);
+    font-weight: bolder;
+    color: rgb(216, 160, 241);
 }
 
 
@@ -63,7 +64,7 @@ header, ul a{
 }
 
 #home {
-    width: 32px;
+    width: 35px;
     vertical-align: middle;
 }
 
@@ -83,6 +84,7 @@ header, ul a{
     top: 70px;
     left: 70px;
     font-size: 60px;
+    width: 80%;
 }
 
 .description {
@@ -139,6 +141,20 @@ iframe{
     border-style: none;
 }
 
+.palindrome {
+    display: block;
+    margin: auto;
+    border-color: rgb(216, 160, 241);
+    border-style: solid;
+    border-width: 10px;
+    margin-top: 10px;
+    max-width: 60%;
+}
+
+.question_text {
+    font-size: 28px;
+}
+
 ::-moz-selection {
     background: rgb(216, 160, 241);
 }
@@ -146,3 +162,4 @@ iframe{
 ::selection {
     background: rgb(216, 160, 241);
 }
+
