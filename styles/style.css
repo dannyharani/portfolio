@@ -28,13 +28,13 @@ h3 {
 
 h2 {
     font-size: 45px;
+    margin-top: 140px;
 }
 
 a {
     font-weight: bolder;
     color: rgb(216, 160, 241);
 }
-
 
 header ul {
     margin: 0;
@@ -89,15 +89,12 @@ header, ul a{
 
 .description {
     text-align: center;
-    margin: 120px;
+    margin: auto;
+    width: 70%;
 }
 
 .title_text {
     margin: 0;
-}
-
-div h3 {
-    text-align: center;
 }
 
 .intro {
@@ -109,26 +106,6 @@ div h3 {
     text-align: left;
     margin-left: 0;
     padding-left: 15px;
-}
-
-.description li {
-    padding-left: 0;
-}
-
-.highlight {
-    margin: 25px;
-    padding:15px;
-    border-left-style: solid;
-    border-left-color: rgb(216, 160, 241);
-    border-left-width: 4px;
-    text-align: left;
-    line-height: 24px;
-}
-
-.embed {
-    align-content: center;
-    width: 105%;
-    margin-top: 50px;
 }
 
 .project {
@@ -152,7 +129,25 @@ iframe{
 }
 
 .question_text {
+    margin: auto;
     font-size: 28px;
+    padding: 12px 0;
+    background-color: rgb(216, 160, 241);
+    color: rgb(249, 255, 254);
+    text-align: center;
+    border-radius: 15px;
+    margin-top: 70px;
+}
+
+.highlight {
+    margin: 25px;
+    padding:15px;
+    border-left-style: solid;
+    border-left-color: rgb(216, 160, 241);
+    border-left-width: 4px;
+    text-align: left;
+    line-height: 24px;
+    border-radius: 30px;
 }
 
 ::-moz-selection {
@@ -163,3 +158,6 @@ iframe{
     background: rgb(216, 160, 241);
 }
 
+a::selection {
+    color: rgb(249, 255, 254);
+}
