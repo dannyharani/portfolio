@@ -36,6 +36,10 @@ a {
     color: rgb(216, 160, 241);
 }
 
+h4 a {
+    font-size: 22px;
+}
+
 header ul {
     margin: 0;
     padding: 0;
