@@ -120,11 +120,9 @@ iframe{
 .palindrome {
     display: block;
     margin: auto;
-    border-color: rgb(216, 160, 241);
-    border-style: solid;
-    border-width: 10px;
-    margin-top: 10px;
+    margin-top: 30px;
     max-width: 60%;
+    box-shadow: 5px 5px 15px rgba(215, 160, 241, 0.37);
 }
 
 .question_text {
