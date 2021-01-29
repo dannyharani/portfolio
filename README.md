@@ -5,3 +5,6 @@ This portfolio is a visual representation of the continued learning I have gone 
 This is a list of all the projects I am most proud of for various reasons!
 
 > Key to entry: [ENTER](https://dannyharani.github.io/portfolio/) 
+
+
+Refactorings of other groups: https://github.com/dannyharani/Creative-Coding
